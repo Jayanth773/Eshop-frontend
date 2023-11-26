@@ -31,8 +31,9 @@ const Checkkout = () => {
 
   useEffect(() => {
     //https://eshop-react-firebase.jayanthkumar.site/create-payment-intent
+    //http://localhost:4242/create-payment-intent
     // Create PaymentIntent as soon as the page loads
-    fetch("http://localhost:4242/create-payment-intent", {
+    fetch("https://eshop-backend-liard.vercel.app/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
