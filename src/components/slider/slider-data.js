@@ -2,7 +2,7 @@ export const sliderData = [
     {
       image: "https://i.ibb.co/CBGRLhG/bg-4.jpg",
       heading: "Shoes Villa",
-      desc: "Up to 30% off on all onsale proucts.",
+      desc: "Up to 30% off on all onsale products.",
     },
     {
       image: "https://i.ibb.co/cDLBk5h/bg-1.jpg",
